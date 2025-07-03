@@ -1,11 +1,26 @@
-﻿{
-  ""name"": ""zip-password-app"",
-  ""version"": ""1.0.0"",
-  ""main"": ""server.js"",
-  ""scripts"": {
-    ""start"": ""node server.js""
+{
+  "name": "zip-password-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  ""dependencies"": {
-    ""express"": ""^4.18.2""
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vitalii2594/zip-password-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vitalii2594/zip-password-app/issues"
+  },
+  "homepage": "https://github.com/Vitalii2594/zip-password-app#readme",
+  "description": "",
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.1"
   }
 }
